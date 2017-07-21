@@ -2,7 +2,7 @@ AUTHORS
 HISTORY.rst
 LICENSE
 MANIFEST.in
-README.rst
+README.md
 setup.py
 bin/pyping
 pyping/__init__.py
