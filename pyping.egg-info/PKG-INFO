@@ -1,10 +1,10 @@
 Metadata-Version: 1.0
 Name: pyping
-Version: 0.0.5
+Version: 0.0.6
 Summary: A pure python ICMP ping implementation using raw sockets
-Home-page: https://github.com/socketubs/Pyping/
-Author: Geoffrey Lehée
-Author-email: geoffrey@lehee.name
+Home-page: https://github.com/tkuebler/pyping
+Author: Todd Kuebler
+Author-email: tkuebler.org
 License: The original code derived from ping.c distributed in Linux's netkit.
 That code is copyright (c) 1989 by The Regents of the University of California.
 That code is in turn derived from code written by Mike Muuss of the
@@ -20,15 +20,15 @@ Description: ======
         Pyping
         ======
         
-        A pure python ping implementation using raw sockets.
+        A pure python ping implementation for Python3 using raw s ckets.
         
         Note that ICMP messages can only be sent from processes running as root
         (in Windows, you must run this script as 'Administrator').
         
         Original Version from Matthew Dixon Cowles.
           
-        * Copyleft 1989-2011 by the python-ping team, see `AUTHORS <https://raw.github.com/socketubs/pyping/master/AUTHORS>`_ for more details.
-        * License: GNU GPL v2, see `LICENCE <https://raw.github.com/Socketubs/Pyping/master/LICENSE>`_ for more details.
+        * Copyleft 1989-2011 by the python-ping team, see `AUTHORS <https://raw.github.com/tkuebler/pyping/master/AUTHORS>`_ for more details.
+        * License: GNU GPL v2, see `LICENCE <https://raw.github.com/tkuebler/pyping/master/LICENSE>`_ for more details.
         
         Usage
         -----
@@ -75,17 +75,24 @@ Description: ======
         Contribute
         ----------
         
-        `Fork <http://help.github.com/fork-a-repo/>`_ this repo on `GitHub <https://github.com/socketubs/Pyping>`_ and `send <http://help.github.com/send-pull-requests>`_ pull requests. Thank you.
+        `Fork <http://help.github.com/fork-a-repo/>`_ this repo on `GitHub <https://github.com/tkuebler/pyping>`_ and `send <http://help.github.com/send-pull-requests>`_ pull requests. Thank you.
         
         Links
         -----
         
-         - Sourcecode at GitHub: https://github.com/socketubs/Pyping
+         - Sourcecode at GitHub: https://github.com/tkuebler/pyping
          - Python Package Index: http://pypi.python.org/pypi/pyping/
         
         
         History
         -------
+
+	2017-07-20
+        ++++++++++
+
+        - import 0.0.5 code into github (https://github.com/tkuebler/pyping)
+        - port to python 3
+        - update pypi
         
         2012-06-05
         ++++++++++

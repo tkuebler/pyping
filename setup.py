@@ -15,14 +15,14 @@ if sys.argv[-1] == 'publish':
 
 setup(
 	name='pyping',
-	version='0.0.5',
-	description='A pure python ICMP ping implementation using raw sockets',
+	version='0.0.6',
+	description='A pure python ICMP ping implementation for python3 using raw sockets',
 	long_description=open('README.rst').read() + '\n\n' +
                      open('HISTORY.rst').read(),
 	license=open("LICENSE").read(),
-	author="Geoffrey Lehée",
-	author_email="geoffrey@lehee.name",
-	url='https://github.com/socketubs/Pyping/',
+	author="Todd Kuebler",
+	author_email="todd@kuebler.org",
+	url='https://github.com/tkuebler/pyping',
 	keywords="ping icmp network latency",
 	packages = ['pyping'],
 	scripts=["bin/pyping"]
