@@ -4,6 +4,10 @@ Pyping
 
 A pure python ping implementation using raw sockets for python 3.
 
+The original project is abandoned on pypi so for now:
+
+	'pip install git+git://github.com/tkuebler/pyping'
+
 Note that ICMP messages can only be sent from processes running as root
 (in Windows, you must run this script as 'Administrator').
 
