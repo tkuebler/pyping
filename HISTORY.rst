@@ -1,6 +1,13 @@
 History
 -------
 
+2017-07-20
+++++++++++
+
+  - import 0.0.5 code into github (https://github.com/tkuebler/pyping)
+  - port to python 3
+  - update pypi
+
 2012-06-05
 ++++++++++
 
