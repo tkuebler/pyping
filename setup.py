@@ -17,7 +17,7 @@ setup(
 	name='pyping',
 	version='0.0.6',
 	description='A pure python ICMP ping implementation for python3 using raw sockets',
-	long_description=open('README.rst').read() + '\n\n' +
+	long_description=open('README.md').read() + '\n\n' +
                      open('HISTORY.rst').read(),
 	license=open("LICENSE").read(),
 	author="Todd Kuebler",
